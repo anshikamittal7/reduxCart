@@ -1,0 +1,59 @@
+@media screen and (max-width: 820px) {
+  .cart {
+    grid-template-columns: 1fr;
+
+    > aside {
+      padding: 2rem;
+      border-radius: 0%;
+      > h2 {
+        font: 100 1.2rem "Roboto";
+      }
+    }
+    .cartItem {
+      padding: 0 10;
+    }
+  }
+}
+@media screen and (max-width: 1100px) {
+  .home {
+    padding: 0 2rem;
+    grid-template-columns: auto auto auto;
+  }
+}
+@media screen and (max-width: 900px) {
+  .home {
+    padding: 0 2rem;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .home {
+    padding: 0 2rem;
+    grid-template-columns: auto;
+  }
+  .card {
+    h4 {
+      font-size: medium;
+    }
+
+    button {
+      font-size: xx-small;
+    }
+  }
+}
+@media screen and (max-width: 300px) {
+  .footer {
+    width: 120%;
+    > h2 {
+      font-size: xx-small;
+    }
+    .grid-item {
+      font-size: xx-small;
+      text-align: center;
+    }
+    .copywrite {
+      font-size: x-small;
+    }
+  }
+}
